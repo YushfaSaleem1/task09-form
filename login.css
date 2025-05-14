@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    background-color: rgb(211, 205, 205) ; 
+    padding: 20px 200px ;
+}
+
+
+.box1{
+    background-color: whitesmoke;
+    max-width: 900px;
+    height: 610px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px;
+    position: absolute;
+}
+
+.box2{
+    margin-top: -27em;
+    color: white;
+    padding: 15px;
+    padding-top: 30px;
+    top: 25px;   left: 20px;
+    position: relative;
+    border-radius: 10px;
+    max-width: 40%;
+    height: 92%;
+    background-color: rgb(43, 82, 209);
+}
+
+.box3{
+    margin-top:90px;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 12px;
+    height: 45%;
+    background-color: rgba(16, 49, 160, 0.678);
+    max-width: 100%;
+}
+
+.img{
+    border: blue solid 2px;
+    height: 70px;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: 2px solid rgb(3, 3, 143);
+}
+
+.name{
+    margin-top: -50px;
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name1{
+    color: wheat;
+}
+
+.heading{
+    font-size: 26px;
+    padding-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fleeso{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.para{
+    font-size: 15px;
+    color: rgb(179, 177, 177);
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.para1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Details */
+
+.left{
+    margin-top: 2em;
+  padding-left: 27em;
+}
+
+.signup{
+    color: rgb(1, 1, 180);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.line{
+    color: grey;
+    font-size: 14px;
+}
+
+.signin{
+    color: blue;
+}
+.signin:hover{
+    color: green;
+}
+
+.check{
+    margin-top: 20px;
+    width: 20px;
+}
+
+
+.input{
+    color: grey;
+    margin-top: 20px;
+    width: 400px;
+    height: 40px;
+}
+
+
+.two, .three{
+    font-size: 12px;
+    color: grey;
+    margin-top: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.three{
+    margin-top: 100px;
+}
+
+button{
+    border: 1px solid black;
+    margin: 20px;
+    width: 190px;  height: 40px;
+    color: white;
+    background-color: rgb(1, 1, 180);
+    margin-left: -2px;
+}
+
+button:hover{
+    background-color: rgb(3, 57, 204);
+}
+/*------------------------------------------------------ media query */
+
+
+/* screen1 */
+
+@media only screen and (max-width:1170px) and (min-width:920px) { 
+
+    body{
+        padding: 7px;
+    }
+     
+    .left{
+    margin-top: 2em;
+  padding-left: 27em;
+}
+
+button{
+    margin-left: -2px;
+}
+
+}
+
+
+/* screen2 */
+
+@media only screen and (max-width:920px) and (min-width:830px) { 
+
+    body{
+        padding: 5px;
+    }
+
+    .box1{
+        max-width: 820px;
+        height: 640px;
+    }
+
+    .box2{
+        max-width: 30%;
+    height: 95%;
+    }
+
+    .box3{
+        margin-top:48px;
+        height: 50%;
+    }
+
+    .img{
+        height: 50px;
+    }
+
+    .name{
+        margin-left: 45px;
+    }
+
+    .name1{
+        font-size: 13px;
+        margin-left: 50px;
+    }
+    .left{
+    margin-top: 2em;
+  padding-left: 20em;
+}
+
+button{
+    margin-left: -2px;
+}
+
+}
+
+
+/* screen3 */
+
+@media only screen and (max-width:830px) and (min-width:685px) { 
+ 
+    body{
+        padding: 2px;
+}
+
+.box1{
+        max-width: 680px;
+        height: 640px;
+    }
+
+    .box2{
+        max-width: 30%;
+    height: 95%;
+    }
+
+    .box3{
+        margin-top:15px;
+        height: 60%;
+    }
+
+    .img{
+        height: 40px;
+    }
+
+    .name{
+        padding-top: 12px;
+    }
+
+    .name, .name1{
+        font-size: 11px;
+        margin-left: 40px;
+    }
+
+    .para{
+    padding-top: 10px;
+    font-size: 10px;
+} 
+.left{
+    margin-top: 2em;
+  padding-left: 15em;
+}
+
+button{
+    margin-left: -2px;
+}
+
+} 
+
+/* screen4 */
+
+@media only screen and (max-width:685px) and (min-width:500px){
+
+    body{
+        padding: 3px;
+    }
+
+    .box1{
+        max-width: 480px ;
+        height: 640px;
+    }
+
+    .box2{ 
+    padding: 10px;
+    padding-top: 20px;
+    top: 5px;   left: 10px;
+    max-width: 33%;
+    height: 98%;
+}
+
+.box3{ 
+    margin-top:10px;
+    padding: 7px;
+    height: 68%;
+    max-width: 100%;
+} 
+
+.heading{
+padding-top:10px;
+}
+
+.para{
+    font-size: 10px;
+    padding-top: 14px;
+}
+
+.para1{
+    font-size: 15px;
+}
+
+.img{
+  height: 60px;
+   margin-left: 35px;
+}
+
+.name{
+    margin-top: 10px;
+}
+
+.left{
+    margin-top: 2em;
+  padding-left: 12em;
+}
+
+button{
+    margin-left: -1px;
+}
+
+.input{
+    width: 280px;
+}
+
+}
+
+
+/* screen5 */
+
+@media only screen and (max-width:500px) and (min-width:350px){
+
+     body{
+        padding: 3px;
+    }
+
+    .box1{
+        max-width: 326px ;
+        height: 642px;
+    }
+
+    .box2{ 
+    padding: 5px;
+    padding-top: 20px;
+    top: 5px;   left: 5px;
+    max-width: 37%;
+    height: 98%;
+}
+
+.box3{ 
+    margin-top:30px;
+    padding:3px;
+    height: 60%;
+} 
+
+.heading{
+padding-top:20px;
+font-size: 20px;
+}
+
+.para{
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.para1{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.img{
+  height: 50px;
+   margin-left: 28px;
+}
+
+.name{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.name1{
+    font-size: 10px;
+}
+
+.left{
+    margin-top: 2em;
+  padding-left: 9em;
+}
+
+.input{
+    width: 170px;
+}
+
+button{
+    margin-left: -1px;
+    width: 130px;
+}
+}
+
+/* *********************************End */
