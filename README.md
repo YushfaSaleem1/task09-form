@@ -1,4 +1,5 @@
 🚀 Responsive Signup/Register Form
+
 This project is a fully responsive and modern Signup/Register Form built using HTML, CSS. Designed with a mobile-first approach, the form works smoothly across all screen sizes and provides a clean user experience.
 
 🔍 Features
@@ -26,18 +27,27 @@ CSS3 (Flexbox/Media Queries)
 
 
 🔗 Live Demo
+
 👉 View Live on Vercel
+
 https://vercel.com/yushfa-saleems-projects/task09-form/5KFSQWC63nUpRYv8B1F5LGJmBUa2
 
 📁 Getting Started
+
 To run this project locally:
 
 bash
+
 Copy
+
 Edit
+
 git clone https://github.com/your-username/signup-form.git
+
 cd signup-form
+
 open index.html
+
 No additional setup is required — it’s pure front-end!
 
 📬 Contact & Freelance
